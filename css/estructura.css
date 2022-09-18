@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+.newsletter{
+    background-color: aliceblue;
+    margin-left: 250px;
+    width: 900px;
+    border: 2px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    display: flex;
+    
+    
+}
+.title > h1{
+    flex-direction: column;
+}
