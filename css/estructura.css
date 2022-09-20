@@ -3,6 +3,7 @@ body{
 }
 
 .newsletter{
+
     background-color: aliceblue;
     margin-left: 250px;
     width: 900px;
@@ -10,16 +11,29 @@ body{
 }
 .name{
     display: flex;
-    justify-content: center;
     font-size: 40px;
+    justify-content: center;
+    font-family: fantasy;
 }
 .info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+
+}
+.info__izq {
+    width: 15%;
+    text-align: center;
+}
+.info__dere{
+    
+    width: 7%;
+    text-align: center;
 }
 .title{
- 
+    background-color: orangered;
     
 }
 .title  h1{
@@ -28,4 +42,7 @@ body{
     justify-items: center;
     justify-content: center;
     align-items: center;  
+}
+.content{
+    background-color: orange;
 }
