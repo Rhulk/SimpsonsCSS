@@ -59,17 +59,18 @@ body{
     
 }
 .content{
-    background-color: orange;
+
     display: flex;
     flex-direction: row;
     justify-items: center;
     justify-content: center;
     align-items: center;  
-    height: 600px;
+    height: 456px;
+    
 }
 .left-side{
-    background-color: violet;
     height: 100%;
+    border-right: solid;
 }
 .cabecera {
     display: flex;
@@ -79,7 +80,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     width: 96%;
-    margin-left: 10px;
+    margin: 0 0 0px 10px;
 }
 .cabecera span{
     margin: -9px 0px -9px 10px;
@@ -87,8 +88,11 @@ body{
 }
 
 .cuerpo{
-    background-color: aqua;
+    display: flex;
+}
+.cuerpo p{
+    margin: 3px 2px 0 10px;
 }
 .right-side{
-    background-color: red;
+    margin: 0px 10px 0 15px;
 }
