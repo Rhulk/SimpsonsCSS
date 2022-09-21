@@ -7,7 +7,8 @@ body{
     background-color: aliceblue;
     margin-left: 250px;
     width: 900px;
-    border: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 .name{
     display: flex;
